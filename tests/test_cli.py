@@ -42,3 +42,18 @@ def test_unknown_region_lists_available():
 def test_devices_filter():
     r = run(cli.app, ["devices", "op11"])
     assert r.exit_code == 0 and "OnePlus 11  CN:PHB110  EU:CPH2449  GLO:CPH2449  IN:CPH2447" in r.output
+
+
+def test_pick_asks_for_missing_device_and_region(monkeypatch):
+    asked = []
+    answers = {"Device": "OnePlus 11", "Region": "EU"}
+    monkeypatch.setattr(cli.sys.stdin, "isatty", lambda: True)
+    monkeypatch.setattr(cli.sys.stderr, "isatty", lambda: True)
+    monkeypatch.setattr(cli, "_choose", lambda what, choices: asked.append((what, choices)) or answers[what])
+    v = cli._pick(None, None, None)
+    assert (v.device, v.region, v.product) == ("OnePlus 11", "EU", "CPH2449EEA")
+    assert asked[1] == ("Region", ["CN", "EU", "GLO", "IN"])
+
+
+def test_pick_without_tty_defaults_region_cn():
+    assert cli._pick("op11", None, None).region == "CN"

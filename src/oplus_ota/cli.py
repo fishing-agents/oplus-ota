@@ -8,12 +8,14 @@ import dataclasses
 import json
 import shutil
 import subprocess
+import sys
 from contextlib import contextmanager
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Annotated
 
 import httpx
+import questionary
 import typer
 from rich.console import Console
 from rich.table import Table
@@ -24,8 +26,8 @@ from oplus_ota.protocol import DOWNLOAD_HEADERS, OtaError, Package, query
 app = typer.Typer(help="Query and download OPPO/OnePlus/realme OTA packages", no_args_is_help=True, rich_markup_mode="rich")
 out, err = Console(highlight=False), Console(stderr=True, highlight=False)
 
-Device = Annotated[str, typer.Argument(help="Device name or model, e.g. 'OnePlus 11', op11, PHB110")]
-Region = Annotated[str, typer.Option("-r", "--region", help="CN, EU, IN, GLO, ... (see [bold]regions[/])")]
+Device = Annotated[str | None, typer.Argument(help="Device name or model, e.g. 'OnePlus 11', op11, PHB110 (omit to pick)")]
+Region = Annotated[str | None, typer.Option("-r", "--region", help="CN, EU, IN, GLO, ... (omit to pick; see [bold]regions[/])")]
 Android = Annotated[str | None, typer.Option("-a", "--android", help="Firmware group, e.g. 16 (default: newest)")]
 From = Annotated[str | None, typer.Option("--from", help="Ask as this OTA version, e.g. PHB110_11.H.13_3130_202607172124")]
 Beta = Annotated[bool, typer.Option("--beta", help="Ask for beta builds")]
@@ -60,22 +62,27 @@ def regions():
 
 @app.command("query")
 def query_cmd(
-    device: Device, region: Region = "CN", android: Android = None, from_version: From = None, beta: Beta = False, as_json: Json = False
+    device: Device = None,
+    region: Region = None,
+    android: Android = None,
+    from_version: From = None,
+    beta: Beta = False,
+    as_json: Json = False,
 ):
     """Show the latest full package: version, size, MD5, link."""
     _show(_query(device, region, android, from_version, beta), as_json)
 
 
 @app.command()
-def url(device: Device, region: Region = "CN", android: Android = None, from_version: From = None):
+def url(device: Device = None, region: Region = None, android: Android = None, from_version: From = None):
     """Print only the signed download link (for scripts)."""
     print(_query(device, region, android, from_version, False).url)
 
 
 @app.command()
 def download(
-    device: Device,
-    region: Region = "CN",
+    device: Device = None,
+    region: Region = None,
     android: Android = None,
     from_version: From = None,
     beta: Beta = False,
@@ -138,13 +145,43 @@ def _expand(s: str) -> str:
     return s
 
 
-def _query(device: str, region: str, android: str | None, from_version: str | None, beta: bool) -> Package:
-    hits = catalog.find(_expand(device), region, android)
-    if not hits:
-        avail = sorted({v.region for v in catalog.match(_expand(device))})
-        _fail(f"no {device} variant for region {region}" + (f"; available: {', '.join(avail)}" if avail else "; see 'devices'"))
-    v = hits[0]
+def _query(device: str | None, region: str | None, android: str | None, from_version: str | None, beta: bool) -> Package:
+    v = _pick(device, region, android)
     return _ask(v, from_version or v.base_version, beta, v.android)
+
+
+def _pick(device: str | None, region: str | None, android: str | None) -> catalog.Variant:
+    """Resolve device/region from arguments, asking interactively for whatever is missing or ambiguous."""
+    tty = sys.stdin.isatty() and sys.stderr.isatty()
+    if not device:
+        if not tty:
+            _fail("missing DEVICE (no terminal to ask on)")
+        device = _choose("Device", sorted({v.device for v in catalog.load()}))
+    variants = [v for v in catalog.match(_expand(device)) if android is None or catalog._norm(android) in catalog._norm(v.group)]
+    names = sorted({v.device for v in variants})
+    if len(names) > 1 and tty:
+        device = _choose("Device", names)
+        variants = [v for v in variants if v.device == device]
+    avail = sorted({v.region for v in variants})
+    if not avail:
+        _fail(f"no device matches '{device}'; see 'devices'")
+    if region is None:
+        region = avail[0] if len(avail) == 1 else _choose("Region", avail) if tty else "CN"
+    hits = catalog.find(_expand(device), region, android, variants)
+    if not hits:
+        _fail(f"no {device} variant for region {region}; available: {', '.join(avail)}")
+    return hits[0]
+
+
+def _choose(what: str, choices: list[str]) -> str:
+    """Arrow-key list, type to filter when long. Ctrl-C aborts."""
+    long = len(choices) > 8
+    answer = questionary.select(
+        f"{what}:", choices, use_search_filter=long, use_jk_keys=not long, instruction="(type to filter)" if long else " "
+    ).ask()
+    if answer is None:
+        raise typer.Exit(130)
+    return answer
 
 
 def _ask(v: catalog.Variant, ota: str, beta: bool, android: int) -> Package:
