@@ -1,0 +1,22 @@
+[project]
+name = "oplus-ota"
+version = "0.1.0"
+description = "Query and download OPPO/OnePlus/realme OTA packages"
+authors = [{name = "Reza Jelveh", email = "agent@jelveh.me"}]
+dependencies = ["typer>=0.12", "httpx>=0.27", "cryptography>=43"]
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+
+[project.scripts]
+oplus-ota = "oplus_ota.cli:app"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py311"
