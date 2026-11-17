@@ -16,41 +16,7 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
-
-@dataclass(frozen=True)
-class Server:
-    url: str
-    pubkey: str
-    negotiation: str
-    carrier: str
-
-
-SERVERS = {
-    "CN": Server(
-        "https://component-otapc-cn.allawntech.com/update/v3",
-        "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApXYGXQpNL7gmMzzvajHaoZIHQQvBc2cOEhJc7/tsaO4sT0unoQnwQKfNQCuv7qC1Nu32eCLuewe9LSYhDXr9KSBWjOcCFXVXteLO9WCaAh5hwnUoP/5/Wz0jJwBA+yqs3AaGLA9wJ0+B2lB1vLE4FZNE7exUfwUc03fJxHG9nCLKjIZlrnAAHjRCd8mpnADwfkCEIPIGhnwq7pdkbamZcoZfZud1+fPsELviB9u447C6bKnTU4AaMcR9Y2/uI6TJUTcgyCp+ilgU0JxemrSIPFk3jbCbzamQ6Shkw/jDRzYoXpBRg/2QDkbq+j3ljInu0RHDfOeXf3VBfHSnQ66HCwIDAQAB",
-        "1615879139745",
-        "10010111",
-    ),
-    "EU": Server(
-        "https://component-otapc-eu.allawnos.com/update/v3",
-        "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh8/EThsK3f0WyyPgrtXb/D0Xni6UZNppaQHUqHWo976cybl92VxmehE0ISObnxERaOtrlYmTPIxkVC9MMueDvTwZ1l0KxevZVKU0sJRxNR9AFcw6D7k9fPzzpNJmhSlhpNbt3BEepdgibdRZbacF3NWy3ejOYWHgxC+I/Vj1v7QU5gD+1OhgWeRDcwuV4nGY1ln2lvkRj8EiJYXfkSq/wUI5AvPdNXdEqwou4FBcf6mD84G8pKDyNTQwwuk9lvFlcq4mRqgYaFg9DAgpDgqVK4NTJWM7tQS1GZuRA6PhupfDqnQExyBFhzCefHkEhcFywNyxlPe953NWLFWwbGvFKwIDAQAB",
-        "1615897067573",
-        "01000100",
-    ),
-    "IN": Server(
-        "https://component-otapc-in.allawnos.com/update/v3",
-        "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwYtghkzeStC9YvAwOQmWylbp74Tj8hhi3f9IlK7A/CWrGbLgzz/BeKxNb45zBN8pgaaEOwAJ1qZQV5G4nProWCPOP1ro1PkemFJvw/vzOOT5uN0ADnHDzZkZXCU/knxqUSfLcwQlHXsYhNsAm7uOKjY9YXF4zWzYN0eFPkML3Pj/zg7hl/ov9clB2VeyI1/blMHFfcNA/fvqDTENXcNBIhgJvXiCpLcZqp+aLZPC5AwY/sCb3j5jTWer0Rk0ZjQBZE1AncwYvUx4mA65U59cWpTyl4c47J29MsQ66hqWv6eBHlDNZSEsQpHePUqgsf7lmO5Wd7teB8ugQki2oz1Y5QIDAQAB",
-        "1615896309308",
-        "00011011",
-    ),
-    "GL": Server(
-        "https://component-otapc-sg.allawnos.com/update/v3",
-        "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkA980wxi+eTGcFDiw2I6RrUeO4jL/Aj3Yw4dNuW7tYt+O1sRTHgrzxPD9SrOqzz7G0KgoSfdFHe3JVLPN+U1waK+T0HfLusVJshDaMrMiQFDUiKajb+QKr+bXQhVofH74fjat+oRJ8vjXARSpFk4/41x5j1Bt/2bHoqtdGPcUizZ4whMwzap+hzVlZgs7BNfepo24PWPRujsN3uopl+8u4HFpQDlQl7GdqDYDj2zNOHdFQI2UpSf0aIeKCKOpSKF72KDEESpJVQsqO4nxMwEi2jMujQeCHyTCjBZ+W35RzwT9+0pyZv8FB3c7FYY9FdF/+lvfax5mvFEBd9jO+dpMQIDAQAB",
-        "1615895993238",
-        "00011011",
-    ),
-}
+from oplus_ota.config import SERVERS, user_file
 
 # Headers the CDN wants on downloadCheck links.
 DOWNLOAD_HEADERS = {"userId": "oplus-ota|16002018", "User-Agent": "okhttp/3.12.12"}
@@ -141,10 +107,15 @@ def query(
     r.raise_for_status()
     resp = r.json()
     if resp.get("responseCode", 200) != 200:
-        raise OtaError(f"server error {resp.get('responseCode')}: {resp.get('errMsg')}")
-    wrapped = json.loads(resp["body"])
-    dec = _ctr(key, base64.b64decode(wrapped["iv"])).decryptor()
-    return parse(json.loads(dec.update(base64.b64decode(wrapped["cipher"])) + dec.finalize()))
+        hint = f"; if the {server} key rotated, update {user_file()}" if resp.get("responseCode") == 500 else ""
+        raise OtaError(f"server error {resp.get('responseCode')}: {resp.get('errMsg')}{hint}")
+    try:
+        wrapped = json.loads(resp["body"])
+        dec = _ctr(key, base64.b64decode(wrapped["iv"])).decryptor()
+        content = json.loads(dec.update(base64.b64decode(wrapped["cipher"])) + dec.finalize())
+    except (KeyError, TypeError, ValueError) as e:
+        raise OtaError(f"{server} server reply unreadable ({e}); its key may have rotated, update {user_file()}") from e
+    return parse(content)
 
 
 def parse(content: dict) -> Package:

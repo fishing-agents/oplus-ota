@@ -57,3 +57,19 @@ def test_pick_asks_for_missing_device_and_region(monkeypatch):
 
 def test_pick_without_tty_defaults_region_cn():
     assert cli._pick("op11", None, None).region == "CN"
+
+
+def test_user_servers_file_overrides_entries(tmp_path, monkeypatch):
+    import importlib
+
+    from oplus_ota import config
+
+    f = tmp_path / "oplus-ota" / "servers.json"
+    f.parent.mkdir()
+    f.write_text('{"servers": {"EU": {"negotiation": "42"}}, "regions": {"XX": {"nv": "NV00", "server": "EU"}}}')
+    monkeypatch.setenv("XDG_CONFIG_HOME", str(tmp_path))
+    c = importlib.reload(config)
+    assert c.SERVERS["EU"].negotiation == "42" and c.SERVERS["EU"].url.endswith("eu.allawnos.com/update/v3")
+    assert c.REGIONS["XX"] == ("NV00", "EU") and c.REGIONS["CN"] == ("NV97", "CN")
+    monkeypatch.delenv("XDG_CONFIG_HOME")
+    importlib.reload(config)
