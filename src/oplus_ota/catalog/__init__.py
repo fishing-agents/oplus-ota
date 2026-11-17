@@ -11,10 +11,26 @@ from importlib import resources
 
 # Display region -> (NV id, server). NV ids select the carrier build on the server.
 REGIONS = {
-    "GLO": ("NVA7", "GL"), "CN": ("NV97", "CN"), "VN": ("NV3C", "EU"), "IN": ("NV1B", "IN"), "EU": ("NV44", "EU"),
-    "TR": ("NV51", "GL"), "RU": ("NV37", "EU"), "MEA": ("NVA6", "EU"), "SA": ("NV83", "EU"), "SG": ("NV2C", "EU"),
-    "TH": ("NV39", "EU"), "LATAM": ("NV9A", "EU"), "BR": ("NV9E", "GL"), "TW": ("NV1A", "EU"), "MY": ("NV38", "EU"),
-    "ID": ("NV33", "EU"), "KZ": ("NV5A", "EU"), "OCA": ("NVA5", "EU"), "PH": ("NV3D", "EU"), "LK": ("NV60", "EU"),
+    "GLO": ("NVA7", "GL"),
+    "CN": ("NV97", "CN"),
+    "VN": ("NV3C", "EU"),
+    "IN": ("NV1B", "IN"),
+    "EU": ("NV44", "EU"),
+    "TR": ("NV51", "GL"),
+    "RU": ("NV37", "EU"),
+    "MEA": ("NVA6", "EU"),
+    "SA": ("NV83", "EU"),
+    "SG": ("NV2C", "EU"),
+    "TH": ("NV39", "EU"),
+    "LATAM": ("NV9A", "EU"),
+    "BR": ("NV9E", "GL"),
+    "TW": ("NV1A", "EU"),
+    "MY": ("NV38", "EU"),
+    "ID": ("NV33", "EU"),
+    "KZ": ("NV5A", "EU"),
+    "OCA": ("NVA5", "EU"),
+    "PH": ("NV3D", "EU"),
+    "LK": ("NV60", "EU"),
     "GENSHIN IMPACT": ("NV97", "CN"),
 }
 ALIASES = {"GL": "GLO", "GLOBAL": "GLO", "EEA": "EU"}
@@ -64,11 +80,17 @@ def _variants(dev: dict) -> list[Variant]:
             model = v.get("productModel") or v.get("model") or v.get("productName")
             if not region or not model:
                 continue
-            out.append(Variant(
-                device=dev["name"], group=group, region=ALIASES.get(region.upper(), region.upper()), model=model,
-                product=v.get("productName") or model, letter=letter or v.get("versionLetter", "A"),
-                req_mode=mode or v.get("reqMode", "manual"),
-            ))
+            out.append(
+                Variant(
+                    device=dev["name"],
+                    group=group,
+                    region=ALIASES.get(region.upper(), region.upper()),
+                    model=model,
+                    product=v.get("productName") or model,
+                    letter=letter or v.get("versionLetter", "A"),
+                    req_mode=mode or v.get("reqMode", "manual"),
+                )
+            )
     return out
 
 

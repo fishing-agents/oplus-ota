@@ -56,6 +56,10 @@ SERVERS = {
 DOWNLOAD_HEADERS = {"userId": "oplus-ota|16002018", "User-Agent": "okhttp/3.12.12"}
 
 
+class OtaError(Exception):
+    """The update server refused the query or offered nothing."""
+
+
 @dataclass(frozen=True)
 class Package:
     version: str
@@ -101,24 +105,43 @@ def query(
         "deviceId": hashlib.sha256(b"0").hexdigest(),
     }
     body = fields | {
-        "productName": model, "operator": "unknown", "mode": "1" if beta else "0", "registrationId": "unknown", "version": "3",
-        "type": "1", "otaPrefix": prefix, "isRealme": "0", "time": str(now), "canCheckSelf": "0", "gray": "0", "reqMode": req_mode,
+        "productName": model,
+        "operator": "unknown",
+        "mode": "1" if beta else "0",
+        "registrationId": "unknown",
+        "version": "3",
+        "type": "1",
+        "otaPrefix": prefix,
+        "isRealme": "0",
+        "time": str(now),
+        "canCheckSelf": "0",
+        "gray": "0",
+        "reqMode": req_mode,
     }
     key, iv = os.urandom(32), os.urandom(16)
     enc = _ctr(key, iv).encryptor()
     cipher = enc.update(json.dumps(body).encode()) + enc.finalize()
     protected = _protected_key(base64.b64encode(key).decode(), srv.pubkey)
     headers = fields | {
-        "infVersion": "1", "operator": "unknown", "nvCarrier": nv or srv.carrier, "mode": req_mode, "channel": "pc", "version": "2",
-        "Accept": "application/json", "Content-Type": "application/json", "User-Agent": "NULL",
-        "protectedKey": json.dumps({"SCENE_1": {"protectedKey": protected, "version": str(now + 86400000), "negotiationVersion": srv.negotiation}}),
+        "infVersion": "1",
+        "operator": "unknown",
+        "nvCarrier": nv or srv.carrier,
+        "mode": req_mode,
+        "channel": "pc",
+        "version": "2",
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "User-Agent": "NULL",
+        "protectedKey": json.dumps(
+            {"SCENE_1": {"protectedKey": protected, "version": str(now + 86400000), "negotiationVersion": srv.negotiation}}
+        ),
     }
     params = json.dumps({"cipher": base64.b64encode(cipher).decode(), "iv": base64.b64encode(iv).decode()})
     r = httpx.post(srv.url, content=json.dumps({"params": params}), headers=headers, timeout=30)
     r.raise_for_status()
     resp = r.json()
     if resp.get("responseCode", 200) != 200:
-        raise RuntimeError(f"server error {resp.get('responseCode')}: {resp.get('errMsg')}")
+        raise OtaError(f"server error {resp.get('responseCode')}: {resp.get('errMsg')}")
     wrapped = json.loads(resp["body"])
     dec = _ctr(key, base64.b64decode(wrapped["iv"])).decryptor()
     return parse(json.loads(dec.update(base64.b64decode(wrapped["cipher"])) + dec.finalize()))
@@ -128,10 +151,10 @@ def parse(content: dict) -> Package:
     """Pick the first component's package from a decrypted response."""
     root = content.get("body", content)
     if root.get("checkFailReason"):
-        raise RuntimeError(f"update check failed: {root['checkFailReason']}")
+        raise OtaError(f"update check failed: {root['checkFailReason']}")
     comps = root.get("components") or []
     if not comps:
-        raise RuntimeError("no update offered")
+        raise OtaError("no update offered")
     pkt = comps[0]["componentPackets"]
     return Package(
         version=root.get("realVersionName") or root.get("versionName", ""),

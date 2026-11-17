@@ -36,9 +36,9 @@ def test_download_dry_run_builds_aria2c_command(monkeypatch):
 
 def test_unknown_region_lists_available():
     r = run(cli.app, ["query", "op11", "-r", "br"])
-    assert r.exit_code == 1 and "have: CN, EU, GLO, IN" in r.output
+    assert r.exit_code == 1 and "available: CN, EU, GLO, IN" in r.output
 
 
 def test_devices_filter():
     r = run(cli.app, ["devices", "op11"])
-    assert r.exit_code == 0 and "OnePlus 11: CN:PHB110 EU:CPH2449 GLO:CPH2449 IN:CPH2447" in r.output
+    assert r.exit_code == 0 and "OnePlus 11  CN:PHB110  EU:CPH2449  GLO:CPH2449  IN:CPH2447" in r.output
