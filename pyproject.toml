@@ -11,13 +11,26 @@ dependencies = [
     "questionary>=2",
 ]
 requires-python = ">=3.11"
-license = {text = "Apache-2.0"}
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+keywords = ["oppo", "oneplus", "realme", "ota", "firmware", "coloros", "oxygenos"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Archiving :: Packaging",
+]
+
+[project.urls]
+Homepage = "https://github.com/fishing-agents/oplus-ota"
+Issues = "https://github.com/fishing-agents/oplus-ota/issues"
 
 [project.scripts]
 oplus-ota = "oplus_ota.cli:app"
 
 [build-system]
-requires = ["pdm-backend"]
+requires = ["pdm-backend>=2.4"]
 build-backend = "pdm.backend"
 
 [dependency-groups]
