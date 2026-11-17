@@ -3,3 +3,4 @@ Copyright 2026 Reza Jelveh
 
 The OTA query protocol (endpoints, public keys, request layout) follows
 OTA Pulse by RemuruSama, Apache-2.0: https://github.com/RemuruSama/OTA-Pulse
+src/oplus_ota/catalog/*.json are copied unmodified from OTA Pulse's devices/.

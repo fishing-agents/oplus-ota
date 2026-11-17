@@ -1,0 +1,3409 @@
+[
+  {
+    "name": "realme Narzo 100 Lite 5G",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5261",
+          "productName": "RMX5261IN"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 16 5G",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5171",
+          "productName": "RMX5171IN"
+        },
+        {
+          "displayName": "VN",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5171",
+          "productName": "RMX5171EEA"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5171",
+          "productName": "RMX5171RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "TW",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5171"
+        },
+        {
+          "displayName": "KZ",
+          "productModel": "RMX5171"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 16T",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5268",
+          "productName": "RMX5268IN"
+        },
+        {
+          "displayName": "VN",
+          "productModel": "RMX5268"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5268"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5268"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5268"
+        }
+      ]
+    }
+  },
+  {
+    "name": "加平板 3 Pro",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "CN",
+          "productModel": "OPD2513"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme GT 8 Pro",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX5210",
+          "productName": "RMX5210TR"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5210",
+          "productName": "RMX5210RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX5210",
+          "productName": "RMX5210IN"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5210",
+          "productName": "RMX5210EEA"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5210"
+        },
+        {
+          "displayName": "CN",
+          "productModel": "RMX5200"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme GT 7T",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX5085",
+        "productName": "RMX5085TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5085",
+        "productName": "RMX5085RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5085",
+        "productName": "RMX5085IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5085",
+        "productName": "RMX5085EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5085"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5085"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX5085",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX5085",
+          "productName": "RMX5085TR",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5085",
+          "productName": "RMX5085RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5085"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5085",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX5085"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5085",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX5085",
+          "productName": "RMX5085IN",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5085",
+          "productName": "RMX5085EEA",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5085",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5085"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5085",
+          "versionLetter": "C"
+        }
+      ],
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT7 Pro",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX5011",
+        "productName": "RMX5011TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5011",
+        "productName": "RMX5011RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5011"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5011",
+        "productName": "RMX5011IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5011",
+        "productName": "RMX5011EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5011"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX5010"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT 7",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5061",
+        "productName": "RMX5061RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5061",
+        "productName": "RMX5061IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5061",
+        "productName": "RMX5061EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5061"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX6688"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5061",
+          "productName": "RMX5061RU",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX5061",
+          "productName": "RMX5061IN",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5061",
+          "productName": "RMX5061EEA",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5061",
+          "versionLetter": "C"
+        },
+        {
+          "displayName": "CN",
+          "productModel": "RMX6688"
+        }
+      ],
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT6T/6SE",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3853",
+        "productName": "RMX3853TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3853",
+        "productName": "RMX3853RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3853"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3853"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3853",
+        "productName": "RMX3853IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3853",
+        "productName": "RMX3853EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3853"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3853"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3853"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3850"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT6",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3851",
+        "productName": "RMX3851TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3851",
+        "productName": "RMX3851RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3851"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3851"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3851",
+        "productName": "RMX3851IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3851",
+        "productName": "RMX3851EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3851"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3851"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3851"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3852"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT 5 Pro",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3888"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX2202"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX2202",
+        "productName": "RMX2202RU"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX2202"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX2202",
+        "productName": "RMX2202EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX2202"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX2202"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 11": "A",
+      "Android 12": "C",
+      "Android 13": "F",
+      "Android 14": "H"
+    }
+  },
+  {
+    "name": "realme GT5 240W",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3823"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  },
+  {
+    "name": "realme GT5",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3820"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  },
+  {
+    "name": "realme GT3/Neo5",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3709",
+        "productName": "RMX3709TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3709",
+        "productName": "RMX3709RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3709"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3709"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3706"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  },
+  {
+    "name": "realme GT 2 Pro",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3301"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3300"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F",
+      "Android 15": "H"
+    }
+  },
+  {
+    "name": "realme GT 2",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3311"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3312"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3310"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F",
+      "Android 15": "H"
+    }
+  },
+  {
+    "name": "realme Neo7x",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX5071"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Neo7 Turbo",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "CN",
+          "productModel": "RMX5062"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme Neo7 SE",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "CN",
+          "productModel": "RMX5080"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme Neo7",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "CN",
+          "productModel": "RMX5060"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme GT Neo 6 SE",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3850"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT Neo 6",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3852"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme GT Neo 5 SE",
+    "variants": [
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3701"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3700"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  },
+  {
+    "name": "realme GT Neo 5 240W",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3708"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  },
+  {
+    "name": "realme GT Neo 3 150W",
+    "variants": [
+      {
+        "displayName": "ID",
+        "productModel": "RMX3563"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3563"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3563"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3563",
+        "productName": "RMX3562"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme GT Neo 3 80W",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3561",
+        "productName": "RMX3561RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3561"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3560"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme GT Neo 2T",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "CN",
+          "productModel": "RMX3357",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme GT Neo 2",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "CN",
+          "productModel": "RMX3370",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme X7 Max/GT Neo",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX3031",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "CN",
+          "productModel": "RMX3350",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme GT Master Edition",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3360"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3363"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3366"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 11": "A",
+      "Android 12": "C",
+      "Android 13": "F"
+    }
+  },
+  {
+    "name": "realme 16 Pro+",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX5131",
+          "productName": "RMX5131TR"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5131",
+          "productName": "RMX5131RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX5131",
+          "productName": "RMX5131IN"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5131",
+          "productName": "RMX5131EEA"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5131"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5131"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 16 Pro",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX5120",
+          "productName": "RMX5120TR"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5120",
+          "productName": "RMX5120RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX5120",
+          "productName": "RMX5120IN"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5120",
+          "productName": "RMX5120EEA"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX5120"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX5120"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 15x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5250",
+        "productName": "RMX5250IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme 15T",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5111",
+        "productName": "RMX5111IN"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX5112"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 15 Pro",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX5101",
+        "productName": "RMX5101TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5101",
+        "productName": "RMX5101RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5101",
+        "productName": "RMX5101IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5101",
+        "productName": "RMX5101EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5101"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX5100"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme 15 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5106",
+        "productName": "RMX5106IN"
+      },
+      {
+        "displayName": "KZ",
+        "productModel": "RMX5106"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX5105"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme 14x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3940",
+        "productName": "RMX3940IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 14 Pro+ 5G",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX5051",
+        "productName": "RMX5051TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5051",
+        "productName": "RMX5051RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5051"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX5051"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5051",
+        "productName": "RMX5051IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5054",
+        "productName": "RMX5054EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5051"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5051"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5051"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX5050"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 14 Pro",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX5055"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5056",
+        "productName": "RMX5056IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 14/P3",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX5075"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5070",
+        "productName": "RMX5070IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 13 Pro+ 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "PH",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3921"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3921",
+        "productName": "RMX3921IN"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3920"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 13 Pro",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3990",
+        "productName": "RMX3990IN"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3989"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3988"
+      },
+      {
+        "displayName": "PH",
+        "productModel": "RMX3988"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3988"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3988"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3988"
+      },
+      {
+        "displayName": "TW",
+        "productModel": "RMX3988"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "Realme 13+ 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5000",
+        "productName": "RMX5000IN"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5000"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5000"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 13",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3952"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3951",
+        "productName": "RMX3951IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 12x",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3993"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3998",
+        "productName": "RMX3998IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 12 Pro+ 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3840",
+        "productName": "RMX3840TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3840",
+        "productName": "RMX3840RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3840",
+        "productName": "RMX3840IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3840",
+        "productName": "RMX3840EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3840"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3841"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 12 Pro",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3842",
+        "productName": "RMX3842TR"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3842",
+        "productName": "RMX3842RU"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3842"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3842"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3842",
+        "productName": "RMX3842IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3842",
+        "productName": "RMX3842EEA"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3842"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3843"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 12+ 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3867",
+        "productName": "RMX3867IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3867"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3867"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 12 5G",
+    "variants": [
+      {
+        "displayName": "CN",
+        "productModel": "RMX3992"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3999",
+        "productName": "RMX3999IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme 11x 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3785"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3785"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3785"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3785",
+        "productName": "RMX3785IN"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3785"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3785"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3785"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 11 Pro 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3770"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 11 Pro+ 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3741"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3740"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 11 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3780",
+        "productName": "RMX3780IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3780"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3780"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 10 Pro+",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3686"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3687"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 10 Pro",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3661"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3661"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3661"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3661"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3661"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3660"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3663"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme 10",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3630"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3630"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 9i 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3612"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3612"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3612"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3612"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 9i",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TR",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX3491",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 9 Pro+",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3393"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3392"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 9 Pro 5G/Q5",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3472"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3471"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "RMX3478"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 9 SD695 5G",
+    "variants": [
+      {
+        "displayName": "RU",
+        "productModel": "RMX3474"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3474"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 9 5G Speed Edition",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX3461",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 9 5G",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "MY",
+          "productModel": "RMX3388",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3388",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 9 4G",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3521"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3521"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme 8s 5G",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX3381",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 8i",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "RU",
+          "productModel": "RMX3151",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3151",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3151",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3151",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 8 Pro",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "RU",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX3081",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 8 5G",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MY",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "BR",
+          "productModel": "RMX3241",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme 8",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TR",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX3085",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme C73 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3945",
+        "productName": "RMX3945IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme C67 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3782"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme C65 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3997",
+        "productName": "RMX3997IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme C63 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3950",
+        "productName": "RMX3950IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme C25s",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX3197",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme C25",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX3193",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme NARZO N65 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3997",
+        "productName": "RMX3997IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3997",
+        "productName": "RMX3997EEA"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3997"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3997"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo N55",
+    "variants": [
+      {
+        "displayName": "TR",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3710"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX3710"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme narzo 90x",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5264",
+          "productName": "RMX5264IN"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX5264",
+          "productName": "RMX5264EEA"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX5264",
+          "productName": "RMX5264RU"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX5264"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX5264"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme Narzo 80x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3944",
+        "productName": "RMX3944IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme Narzo 80 Pro 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5033",
+        "productName": "RMX5033IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 70x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3998",
+        "productName": "RMX3998IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 70 Turbo 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5003",
+        "productName": "RMX5003IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 70 Pro",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3868",
+        "productName": "RMX3868IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 70 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3869",
+        "productName": "RMX3869IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 60x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3782"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 60 Pro",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX3771"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX3771"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 60",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3750"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 50 Pro",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX3396"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3395"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 12": "A",
+      "Android 13": "C",
+      "Android 14": "F"
+    }
+  },
+  {
+    "name": "realme Narzo 50A",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX3430",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3430",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3430",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme Narzo 50",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "TW",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "RU",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "MEA",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "SA",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "ID",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "TH",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3286",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme Narzo 30 5G",
+    "firmwareGroups": {
+      "Android 13": [
+        {
+          "displayName": "RU",
+          "productModel": "RMX3242",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "IN",
+          "productModel": "RMX3242",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "EU",
+          "productModel": "RMX3242",
+          "versionLetter": "F"
+        },
+        {
+          "displayName": "LATAM",
+          "productModel": "RMX3242",
+          "versionLetter": "F"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme P4 Power 5G",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5107",
+          "productName": "RMX5107IN"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme P4 Pro 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5116",
+        "productName": "RMX5116IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme P4x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5108",
+        "productName": "RMX5108IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme P4 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5110",
+        "productName": "RMX5110IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme P3x 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3944",
+        "productName": "RMX3944IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "C"
+    }
+  },
+  {
+    "name": "realme P3 Ultra 5G",
+    "firmwareGroups": {
+      "Android 16": [
+        {
+          "displayName": "IN",
+          "productModel": "RMX5030",
+          "productName": "RMX5030IN",
+          "versionLetter": "C"
+        }
+      ]
+    }
+  },
+  {
+    "name": "realme P3 Pro 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5032",
+        "productName": "RMX5032IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme P3 5G",
+    "variants": [
+      {
+        "displayName": "TW",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "TR",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "RU",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "MEA",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "SA",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "ID",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX5070",
+        "productName": "RMX5070IN"
+      },
+      {
+        "displayName": "EU",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "LATAM",
+        "productModel": "RMX5070"
+      },
+      {
+        "displayName": "BR",
+        "productModel": "RMX5070"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 15": "A",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme P2 Pro 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3987",
+        "productName": "RMX3987IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme P1 Speed 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX5004",
+        "productName": "RMX5004IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme P1 Pro 5G",
+    "variants": [
+      {
+        "displayName": "MEA",
+        "productModel": "RMX3844"
+      },
+      {
+        "displayName": "IN",
+        "productModel": "RMX3844",
+        "productName": "RMX3844IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  },
+  {
+    "name": "realme P1 5G",
+    "variants": [
+      {
+        "displayName": "IN",
+        "productModel": "RMX3870",
+        "productName": "RMX3870IN"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 14": "A",
+      "Android 15": "C",
+      "Android 16": "F"
+    }
+  }
+]

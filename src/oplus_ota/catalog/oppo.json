@@ -1,0 +1,45 @@
+[
+  {
+    "name": "OPPO Find N3",
+    "variants": [
+      {
+        "displayName": "ID",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "SG",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "TW",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "MY",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "TH",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "VN",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "OCA",
+        "productModel": "CPH2499"
+      },
+      {
+        "displayName": "CN",
+        "productModel": "PHN110"
+      }
+    ],
+    "firmwareGroups": {
+      "Android 13": "A",
+      "Android 14": "C",
+      "Android 15": "F",
+      "Android 16": "H"
+    }
+  }
+]
