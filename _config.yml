@@ -1,0 +1,12 @@
+title: oplus-ota
+description: Query and download full OPPO, OnePlus and realme OTA packages from the command line
+keywords: oppo, oneplus, realme, ota, coloros, oxygenos, firmware download
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+include: [README.md]
+exclude: [src, tests, scripts, configs, manifests, layout, logs, windows, uv.lock, pyproject.toml]
